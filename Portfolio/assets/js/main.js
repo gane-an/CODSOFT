@@ -1,4 +1,4 @@
-alert(" This site includes some sample data only.\n Thank you!")
+alert(" This site includes some sample data.\n Thank you!")
 /* ----- NAVIGATION BAR FUNCTION ----- */
 const menuBtn = document.getElementById("myNavMenu");
 const closebtn = document.querySelector(".nav-menu-btn");
