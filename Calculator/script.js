@@ -14,6 +14,9 @@ function clearDisplay() {
 function deleteLast() {
   currentInput = currentInput.slice(0, -1);
   document.getElementById("display").value = currentInput;
+  if(currentInput.length===0){
+    document.getElementById("display").value = "0"; 
+  }
 }
 
 function calculate() {
